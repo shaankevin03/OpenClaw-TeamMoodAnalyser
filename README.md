@@ -115,8 +115,8 @@ After=network.target
 [Service]
 Type=simple
 User=YOUR_USERNAME
-WorkingDirectory=/home/YOUR_USERNAME/.openclaw/workspace/moodanalyser
-EnvironmentFile=/home/YOUR_USERNAME/.openclaw/.env
+WorkingDirectory=PATH_TO_YOUR_WORKING_DIRECTORY
+EnvironmentFile=PATH_TO_YOUR_.env_FILE
 ExecStart=/usr/bin/python3 bot.py
 Restart=always
 RestartSec=5
