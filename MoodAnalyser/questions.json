@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "description": "MoodAnalyser question bank — 5 questions sent Tuesday, 5 sent Thursday",
+  "batches": {
+    "tuesday": [
+      {
+        "id": 1,
+        "dimension": "mood",
+        "text": "If your week were a weather forecast, what's it looking like right now? \u26c5",
+        "options": [
+          { "label": "\u2600\ufe0f Sunny with clear skies",  "score": 3 },
+          { "label": "\u26c5 Partly cloudy",                "score": 2 },
+          { "label": "\u26c8\ufe0f Storm incoming",          "score": 1 }
+        ]
+      },
+      {
+        "id": 2,
+        "dimension": "energy",
+        "text": "What's your battery percentage right now, honestly? \ud83d\udd0b",
+        "options": [
+          { "label": "\ud83d\udfe2 80\u2013100% \u2014 charged up",        "score": 3 },
+          { "label": "\ud83d\udfe1 30\u201379% \u2014 getting by",          "score": 2 },
+          { "label": "\ud83d\udd34 Under 30% \u2014 running on fumes", "score": 1 }
+        ]
+      },
+      {
+        "id": 3,
+        "dimension": "workload",
+        "text": "If your to-do list were a restaurant order, what best describes it? \ud83c\udf7d\ufe0f",
+        "options": [
+          { "label": "\ud83e\udd57 A nice set menu \u2014 manageable",       "score": 3 },
+          { "label": "\ud83c\udf5d \u00c0 la carte \u2014 a bit much but fine",   "score": 2 },
+          { "label": "\ud83c\udf71 All-you-can-eat buffet \u2014 send help", "score": 1 }
+        ]
+      },
+      {
+        "id": 4,
+        "dimension": "connection",
+        "text": "How plugged in do you feel to the team vibe this week? \ud83d\udd0c",
+        "options": [
+          { "label": "\u26a1 Fully in sync",                    "score": 3 },
+          { "label": "\ud83d\udcf6 A little disconnected",      "score": 2 },
+          { "label": "\ud83c\udfdd\ufe0f Feeling like a solo island", "score": 1 }
+        ]
+      },
+      {
+        "id": 5,
+        "dimension": "clarity",
+        "text": "If your priorities this week were a GPS route, what's happening? \ud83d\uddfa\ufe0f",
+        "options": [
+          { "label": "\u2705 Clear route, no recalculating",      "score": 3 },
+          { "label": "\u21a9\ufe0f A few unexpected turns",        "score": 2 },
+          { "label": "\ud83d\udd04 Recalculating... recalculating...", "score": 1 }
+        ]
+      }
+    ],
+    "thursday": [
+      {
+        "id": 6,
+        "dimension": "mood",
+        "text": "Pick the film genre that best matches your vibe today \ud83c\udfac",
+        "options": [
+          { "label": "\ud83d\ude02 Feel-good comedy",  "score": 3 },
+          { "label": "\ud83c\udfad Slow-burn drama",   "score": 2 },
+          { "label": "\ud83d\ude2c Survival thriller", "score": 1 }
+        ]
+      },
+      {
+        "id": 7,
+        "dimension": "energy",
+        "text": "How did you get out of bed this morning? \u2600\ufe0f",
+        "options": [
+          { "label": "\ud83d\ude80 Jumped up, ready to go",      "score": 3 },
+          { "label": "\ud83d\udc22 Took a moment, then managed", "score": 2 },
+          { "label": "\ud83d\udecf\ufe0f The bed won for a while",     "score": 1 }
+        ]
+      },
+      {
+        "id": 8,
+        "dimension": "workload",
+        "text": "How many tabs do you have open \u2014 metaphorically speaking? \ud83d\udcbb",
+        "options": [
+          { "label": "\u2705 3\u20135 tabs, totally fine",             "score": 3 },
+          { "label": "\ud83d\ude05 15 tabs, a bit chaotic",            "score": 2 },
+          { "label": "\ud83d\udca5 So many tabs my brain is crashing", "score": 1 }
+        ]
+      },
+      {
+        "id": 9,
+        "dimension": "connection",
+        "text": "Think of someone on your team. When did you last have a non-work chat? \u2615",
+        "options": [
+          { "label": "\ud83d\ude04 This week \u2014 it was great",        "score": 3 },
+          { "label": "\ud83d\ude42 A while back \u2014 we've been busy",  "score": 2 },
+          { "label": "\ud83d\ude36 I can't remember the last time",   "score": 1 }
+        ]
+      },
+      {
+        "id": 10,
+        "dimension": "clarity",
+        "text": "When you think about next week, what's the feeling? \ud83d\udd2d",
+        "options": [
+          { "label": "\ud83d\ude0e Ready \u2014 I know what's coming",       "score": 3 },
+          { "label": "\ud83d\ude10 Uncertain \u2014 still figuring it out",  "score": 2 },
+          { "label": "\ud83d\ude29 Dread \u2014 it already feels heavy",     "score": 1 }
+        ]
+      }
+    ]
+  }
+}
